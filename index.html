@@ -1,6 +1,5 @@
 <html>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <!-- HTML5 -->
     <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.ico">
@@ -13,13 +12,28 @@
     <body>
         <div class="background"></div>
         <div class="container">
-            <div class="toppane"></div>
-            <!-- <div class="leftpane"></div> -->
+            <div class="toppane">
+                <div class="divBotao">
+                    <button class="button" onclick="window.open('/home/narcizo/Documents/narcizo.github.io/curriculum-vitae.pdf'); return true;">Currículo</button>
+                </div>
+                <div class="div">
+                        <button class="button" onclick="window.open('https://github.com/narcizo'); return true;"><img src='github.svg' width="25" height="25"/></button>
+                </div>
+                <div class="div">
+                    <button class="button" onclick="window.open('https://www.linkedin.com/in/narcizo-gabriel-freitas-palioto-28816316a/'); return true;"><img src='linkedin-logo.svg' width="25" height="25"/></button>
+                </div>
+                <div class="div">
+                    <button class="button" href="mailto:narcizo.gabriel2@gmail.com?Subject=Olá Narcizo"><img src='mail.svg' width="25" height="25"/></button>
+                </div>
+            </div>
             <div class="middlepane">
                 <p class="hello" >Olá. Que bom que você está aqui!</p>
                 <p class="subhello">Aproveite para conhecer um pouco sobre mim</p>
             </div>
-            <!-- <div class="rightpane"></div> -->
         </div>
+
     </body>
+    <script>
+        alert("Site em Desenvolvimento\nO site "+location.hostname+" ainda não está completo.");
+    </script>
 </html>
